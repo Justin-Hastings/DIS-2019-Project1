@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="UTF-8">
+		<title>Register Business</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 offset-me-4 form-div">
+					<form action="" method="post">
+					
+						<h3 class="text-centre">Register Business</h3>
+						
+						<div id="alert-danger"></div>
+						<div id="alert-success"></div>
+						
+						<div class="form-group">
+							<label for="businessName" >Business Name</label>
+							<input type="text" name="businessName" onblur="" class="form-control form-control-lg">
+						</div>
+						
+						<div class="form-group">
+							<label for="postCode" >Postcode</label>
+							<input type="text" name="postCode" onblur="" class="form-control form-control-lg">
+						</div>
+						
+						<div class="form-group">
+							<label for="businessType" >Type of Business</label>
+							<input type="text" name="businessType" onblur="" class="form-control form-control-lg">
+						</div>
+						
+						<div class="form-group">
+							<label for="email" >Email</label>
+							<input type="text" name="email" onblur="" class="form-control form-control-lg">
+						</div>
+						
+						<div class="form-group">
+							<label for="userName" >Username</label>
+							<input type="text" name="userName" onblur="" class="form-control form-control-lg">
+						</div>
+						
+						<div class="form-group">
+							<label for="passWord" >Password</label>
+							<input type="password" name="passWord" onblur="" class="form-control form-control-lg">
+						</div>
+						
+						<div class="form-group">
+							<label for="passwordConf" >Confirm Password</label>
+							<input type="password" name="passwordConf" onblur="" class="form-control form-control-lg">
+						</div>
+						
+						<div class="form-group">
+							<button type="button" onclick="insertBusiness()" name="register-btn" class="btn btn-primary btn-block btn-lg">Register</button>
+						</div>
+						
+						<p class="text-centre"> Already Registered? <a href="businessSignIn.php">Sign In</a></p> 
+						
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/functions.js"></script>
+	</body>
+</html>
